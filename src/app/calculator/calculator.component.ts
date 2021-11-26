@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class CalculatorComponent implements OnInit {
 
   currentNumber = '0';
-  firstOperand :any;
-  operator:any;
+  firstOperand :any= null ;
+  operator:any= null;
   waitForSecondNumber = false;
 
   constructor() { }
